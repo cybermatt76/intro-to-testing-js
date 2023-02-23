@@ -10,3 +10,19 @@ function sayHello(input) {
         return "Hello, World!";
         else return "Hello, " + (input) + "!";
 }
+
+function isFive(input) {
+    if (input === 5 || input === "5")
+        return true;
+    else {
+    return false}
+}
+
+function isEven(num) {
+    if (typeof num === 'string') {
+        num = parseInt(num);
+    }
+    return typeof num === 'number' && num % 2 === 0;
+}
+
+
